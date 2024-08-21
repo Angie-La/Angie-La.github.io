@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Gupter:wght@400;500;700&display=swap');
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #D1BD83;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header ul li{
+    margin: 10px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+nav a:hover{
+    color: #541B14;
+}
+
+header img {
+    width: 150px;
+}
+
+h1{
+    font-family: "Baskervville", serif;
+    font-weight: bold;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 400px;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color:  #73281F;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .conteiner .row {
+    width: 100%;
+    margin: 15px 0;
+    padding: 15px;
+    
+  }
+
+  .col img{
+    width: 200px;
+    border-radius: 30%;
+    
+  }
+
+  .col h1 {
+    font-size: 25px;
+    color: #76783A;
+    font-weight: bold;
+    text-align: justify;
+    margin-left: 20%;
+    margin-top: 15px;
+  }
+
+
+  .col p {
+    font-size: 18px;
+    text-align: justify;
+    color: #D1BD83;
+  }
+
+  button {
+    background-color: #76783A;;
+    color: white;
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+  }
+  
+  
+  .btn-primary {
+    border: none;
+    background-color: #76783A;
+    border-radius: 30px;
+  }
+  
+  .btn-primary:focus,
+  .btn-primary:hover {
+    box-shadow: none;
+    border: solid 1px  hsl(136, 89%, 15%);
+    background-color: #76783A;
+  }
+
+  #Genero{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #D1BD83;
+    padding: 10px;
+  }
+
+#Genero img{
+    width: 100%;
+    border-radius: 30%;
+    justify-content: left;
+    padding: 15px;
+}
+
+#Genero h1{
+    font-size: 35px;
+    color:#76783A;
+    font-weight: bold;
+    text-align: justify;
+  }
+
+#Genero p {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  #novedades{
+    display: flex;
+    justify-items: center;
+    width: 100%;
+    padding: 15px;
+    background-color: #73281F;
+  }
+
+  #novedades img{
+    width: 200px;
+    border-radius: 30%;
+    justify-content: center;
+    padding: 15px;
+    margin-left: 20%;
+}
+
+.row h1{
+    font-size: 35px;
+    color: #76783A;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.col-md-4 h1{
+  font-size: 25px;
+  color: #76783A;
+  font-weight: bold;
+  text-align: justify;
+} 
+
+
+#novedades p {
+    font-size: 18px;
+    text-align: justify;
+    color: #D1BD83;
+  }
+
+#contacto{
+    justify-items: center;
+    width: 100%;
+    padding: 15px;
+    background-color: #D1BD83;
+}
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 40px 0;
+}
+
+#contacto h1{
+  font-size: 35px;
+  color: #76783A;
+  font-weight: bold;
+  text-align: justify;
+}
+
+form label, form legend{
+    font-size: 20px;
+    margin-left: 25%;
+    
+}
+
+.input{
+    display: flex;
+    margin-left: 25%;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin-left: 25%;
+    
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    margin-left: 30%;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #76783A;
+    border: none;
+    border-radius: 30px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background:  #555;
+}
+
+#nosotros{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background-color: #73281F;
+}
+
+#nosotros h1{
+  font-size: 35px;
+    color:#76783A;
+    font-weight: bold;
+    text-align: justify;
+    margin-top: 15px;
+}
+
+#nosotros iframe{
+  padding: 10px;
+  margin: 10px;
+}
+
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px;
+    z-index: 99; 
+    border: none;
+    outline: none; 
+    background-color: #76783A;; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px;
+    border-radius: 30px; 
+    font-size: 18px; 
+  }
+  
+  #myBtn:hover {
+    background-color: #555; 
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    background-color: #735229;
+    height: 100px;
+  }
+
+  footer h3{
+    font-family: "Baskervville", serif;
+   
+    color: #44120c;
+  }
+

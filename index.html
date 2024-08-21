@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./main.js"></script>
+    <title>Nube de Tinta</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./Imagenes/Logo_Nube_de_Tinta-removebg-preview.png" alt="Logo de Nube de Tinta.">
+        </div>
+        <nav>
+            <ul>
+                <a href="">
+                    <li>Home</li>
+                </a>
+                <a href="#Genero">
+                    <li>Género</li>
+                </a>
+                <a href="#novedades">
+                    <li>Novedades</li>
+                </a>
+                <a href="#contacto">
+                    <li>Contacto</li>
+                </a>
+                <a href="#nosotros">
+                    <li>Nosotros</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./Imagenes/carrusel_1.jpg" class="d-block w-100" alt="Imagenes de libros.">
+            </div>
+            <div class="carousel-item">
+                <img src="./Imagenes/Carrusel_2.jpg" class="d-block w-100" alt="Imagenes de libros.">
+            </div>
+            <div class="carousel-item">
+                <img src="./Imagenes/Carrusel_3.jpg" class="d-block w-100" alt="Imagenes de libros.">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="conteiner">
+        <div class="row">
+            <div class="col">
+                <img src="./Imagenes/Libros-producto.jpg" alt="">
+                <h1>Obras literarias</h1>
+                <p>¿Buscas una aventura épica que te transporte a reinos fantásticos llenos de dragones y magia? ¿O prefieres perderte en una historia de amor conmovedora que te haga suspirar?</p>
+                <div id="contenido">
+                    <p>En nuestra librería encontrarás una amplia variedad de géneros literarios para satisfacer todos tus
+                    gustos. Desde novelas de ciencia ficción que exploran los límites de la imaginación hasta thrillers
+                    llenos de suspense que te mantendrán al borde del asiento, tenemos el libro perfecto para cada
+                    lector. Sumérgete en nuestras páginas y descubre un mundo de posibilidades. Déjate llevar por la
+                    intriga de un misterio, ríe a carcajadas con una comedia romántica o reflexiona sobre la vida con
+                    una novela filosófica. Nuestra selección de libros te ofrece la oportunidad de crecer como persona,
+                    expandir tus horizontes y vivir experiencias únicas.</p>
+                </div>
+            <button onclick="muestra_oculta('contenido')" class="btn btn-primary" form="contenido">Más</button>
+            </div>
+            <div class="col">
+                <img src="./Imagenes/caja literaria.jpg" alt="">
+                <h1>Cajas literarias</h1>
+                <p>¡Descubre un nuevo mundo cada mes! Abre nuestra caja literaria sorpresa y déjate envolver por la magia de
+                    la lectura.</p>
+                <div id="contenido2">
+                    <p>Cada mes, recibirás un libro nuevo y exclusivo, cuidadosamente seleccionado para sorprenderte y
+                        deleitarte. Además, encontrarás una selección de accesorios temáticos que harán de tu experiencia de
+                        lectura algo inolvidable. ¡No sabes qué joya literaria te espera! ¡Suscríbete ahora y vive la
+                        aventura de descubrir nuevas historias cada mes!</p>
+    
+                </div>
+                <button onclick="muestra_oculta('contenido2')" class="btn btn-primary" form="contenido2">Más</button>
+            </div>
+            <div class="col">
+                <img src="./Imagenes/Accesorios.jpg" alt="">
+                <h1>Accesorios litararios</h1>
+                <p>Sumérgete en un mundo de posibilidades con nuestra amplia gama de accesorios literarios.</p>
+                <div id="contenido3">
+                    <p>Desde los más clásicos como los marcapáginas y los resaltadores, hasta los más originales como sellos
+                        personalizados y fundas para libros, tenemos todo lo que necesitas para hacer de tu experiencia de
+                        lectura algo verdaderamente especial. Imagina subrayar tus frases favoritas con un resaltador de
+                        colores vibrantes, marcar tu progreso con un elegante separador de páginas o proteger tu preciada
+                        colección de libros con fundas personalizadas. Cada accesorio es una pieza única que te permitirá
+                        personalizar tu experiencia de lectura y crear un espacio de lectura acogedor y estimulante.
+                        Descubre nuestra colección y encuentra los accesorios perfectos para complementar tu biblioteca.</p>
+                </div>
+                <button onclick="muestra_oculta('contenido3')" class="btn btn-primary" form="contenido3">Más</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="Genero">
+        <div><img src="./Imagenes/Sobre nosotros.jpg" alt="Libros del género clasico."></div>
+        <div> 
+            <h1>Los géneros que encontrarás en nuestra tienda</h1>
+            <p>Explora un universo de historias que te transportarán a mundos fantásticos, te harán reír a carcajadas o te pondrán los pelos de punta. Descubre una amplia variedad de géneros literarios desde las novelas románticas más apasionantes hasta las thrillers más emocionantes. Encuentra el libro perfecto para cada momento y déjate llevar por la magia de la lectura.</p>
+            <ul>
+                <li>Fantasía</li>
+                <li>Romance</li>
+                <li>Misterio</li>
+                <li>Terror</li>
+                <li>Juvenil</li>
+                <li>Middle-Grade</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="novedades">
+        <div class="row">
+            <h1>Las novedades del mes</h1>
+            <p>¡Nuevas historias te esperan!  Descubre las últimas novedades literarias que han cautivado al mundo del libro. Desde emocionantes novelas hasta ensayos reveladores, pasando por poesía que conmueve, tenemos todo lo que necesitas para alimentar tu pasión por la lectura. ¡Sé el primero en sumergirte en las historias más recientes y emocionantes!</p>
+            <div class="col-md-4">
+                <h1>La vida de las marionetas</h1>
+                <img src="./Imagenes/novedades_1.webp" alt="La vida de las marionetas.">
+                <p>Tres robots viven en una diminuta y peculiar casa entre las ramas de una arboleda: una máquina enfermera un poco sádica, una pequeña aspiradora desesperada por recibir amor y atención, y Giovanni Lawson, un androide inventor. Pero también vive con ellos un humano: Victor Lawson, hijo de Gio. Refugiados y a salvo en el bosque, los cuatro forman una extraña familia. </p>
+            </div>
+            <div class="col-md-4">
+                <h1>El ritmo de la guerra</h1>
+                <img src="./Imagenes/novedad_2.webp" alt="El ritmo de la guerra">
+                <p>El Ritmo de la Guerra es la esperada cuarta parte de la decalogía "El Archivo de las Tormentas" y el libro que continúa la historia de El camino de los reyes, Palabras radiantes y Juramentada.
+                <br>Hay secretos que hemos guardado mucho tiempo. Vigilantes. Insomnes. Eternos. Y pronto dejarán de ser nuestros.
+                <br>La Una que es Tres busca, sin saberlo, el alma capturada. El spren aprisionado, olvidado hace mucho tiempo. ¿Puede liberar su propia alma a tiempo de hallar el conocimiento que condena a todos los pueblos de Roshar?
+                <br>El Soldado Caído acaricia y ama la lanza, incluso mientras el arma hiende su propia carne. Camina siempre hacia delante, siempre hacia la oscuridad, sin luz. No puede llevar consigo a nadie, salvo aquello que el mismo puede avivar. 
+                </p>        
+            </div>
+            <div class="col-md-4">
+                <h1>Prácticamente Ruth</h1>
+                <img src="./Imagenes/novedades_3.webp" alt="Prácticamente Ruth">
+                <p>Ashville es un pueblo con una historia secreta. Antiguas estructuras yacen ocultas en los bosques y se llevan a cabo extraños rituales para hablar con los muertos. Para el sepulturero Abel Cunningham, también es un pueblo lleno de remordimientos. Y cuando Abel recibe el encargo de un entierro inusual, descubre que hay algo más que cadáveres en el cementerio Ambientada en una inquietante visión del Viejo Oeste, Prácticamente Ruth es la nueva pesadilla del autor de obras como Criterium y The Dark Side Room.</p>
+                
+            </div>
+        </div>
+    </div>
+
+        <div id="contacto">
+            <h1>Contáctanos</h1>
+
+            <form>
+                <label for="nombreapellido">Nombre y Apellido</label>
+                <input type="text" id="nombreapellido" class="input" required>
+
+                <label for="correoelectronico">Correo Electrónico</label>
+                <input type="email" id="correoelectronico" class="input" required placeholder="email@dominio.com">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" class="input"></textarea required> 
+
+                <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades literarías?</label>
+
+                <input type="submit" value="Enviar formulario" class="enviar">
+            </form>
+        </div>
+
+
+        <div id="nosotros">
+            <div><h1>Conócenos</h1></div>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3421.741888766844!2d-87.2230721255544!3d14.062581590023711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6fbd5fb91d5eb9%3A0x8b653d5ad6a4b471!2sCity%20Mall%20Tegucigalpa!5e1!3m2!1ses-419!2shn!4v1723840400211!5m2!1ses-419!2shn" width="360" height="315" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
+                <iframe width="360" height="315" src="https://www.youtube.com/embed/2qZDNr6T9hwsi=MBj65iAdFTb-frSM"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+    </div>
+
+        <button onclick="topFunction()" id="myBtn" title="arriba">Arriba</button>
+
+            <footer>
+                <h3>Conoce nuestra política de privacidad. - 2024© Librería Nube de Tinta.</h3>
+            </footer>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>
